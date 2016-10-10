@@ -1,0 +1,27 @@
+{
+  "name": "restnote-api",
+  "version": "0.0.1",
+  "main": "server.js",
+  "description": "Simple REST API for storing and retrieving notes.",
+  "keywords": [
+    "demo",
+    "sample"
+  ],
+  "homepage": "https://github.com/theronl/restnote-api/wiki",
+  "bugs": "https://github.com/theronl/restnote-api/issues",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:theronl/restnote-api.git"
+  },
+  "config": {
+    "hostname": "127.0.0.1",
+    "port": "8080"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.6"
+  },
+  "bundleDepencencies": {}
+}
